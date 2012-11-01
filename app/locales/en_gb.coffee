@@ -141,7 +141,7 @@ module.exports =
     div_3_div_0_ab: """Navigator"""
     div_0_pb: """Experience a privileged glimpse of the distant universe, observed by the Sloan Digital Sky Survey and Hubble Space Telescope"""
     div_1_div_div_p_0b: """Featured Project"""
-    div_1_div_div_p_1b: """Classify Galaxies, Old Bean"""
+    div_1_div_div_p_1b: """Classify, Old Bean"""
     div_1_div_div_p_2b: """To understand how galaxies formed we need your help to classify them according to their shapes. If you're quick, you may even be the first person to see the galaxies you're asked to classify."""
     div_2_div_0_pb: """
         Roughly one hundred billion galaxies are scattered throughout our observable Universe, each a glorious system that might contain billions of stars. Many are remarkably beautiful, and the aim of Galaxy Zoo is to study them, assisting astronomers in attempting to understand how the galaxies we see around us formed, and what their stories can tell us about the past, present and future of our Universe as a whole. """
