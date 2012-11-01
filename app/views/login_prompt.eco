@@ -1,5 +1,5 @@
 <div class="login-prompt">
-  <h3>Login or create an account to receive credit for your work</h3>
+  <h3 data-i18n="login_prompt.div_h3b"><%- t('login_prompt.div_h3b') %></h3>
   
   <div class="login">
     

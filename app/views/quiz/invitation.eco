@@ -1,23 +1,23 @@
 <div class="quiz-invitation">
-  <h1>Galaxy Zoo needs your help!</h1>
-  <p class="sub-title">We are doing research to better understand what Galaxy Zoo volunteers think about the universe.</p>
+  <h1 data-i18n="quiz_invitation.div_h1b"><%- t('quiz_invitation.div_h1b') %></h1>
+  <p class="sub-title" data-i18n="quiz_invitation.div_pb"><%- t('quiz_invitation.div_pb') %></p>
   
   <div class="content-block">
     <div class="left">
-      <p class="bold">If you agree to help you will be given short surveys that contain 6 multiple choice questions, which you can answer at your own pace. The first survey is available immediately after you agree to participate.<br />A question might be:</p>
+      <p class="bold" data-i18n="quiz_invitation.div_div_div_0_p_0c"><%- t('quiz_invitation.div_div_div_0_p_0b') %><br /><%- t('quiz_invitation.div_div_div_0_p_0c') %></p>
       
-      <p class="question">Hubble's observation that galaxies farther away from us are moving faster led to which conclusion?</p>
+      <p class="question" data-i18n="quiz_invitation.div_div_div_0_p_1b"><%- t('quiz_invitation.div_div_div_0_p_1b') %></p>
       <ul class="answers">
-        <li class="bold">The universe is expanding</li>
-        <li class="bold">The universe is contracting</li>
-        <li class="bold">We are located at the center of the universe</li>
-        <li class="bold">Our galaxy repels other galaxies</li>
+        <li class="bold" data-i18n="quiz_invitation.div_div_div_0_ul_li_0b"><%- t('quiz_invitation.div_div_div_0_ul_li_0b') %></li>
+        <li class="bold" data-i18n="quiz_invitation.div_div_div_0_ul_li_1b"><%- t('quiz_invitation.div_div_div_0_ul_li_1b') %></li>
+        <li class="bold" data-i18n="quiz_invitation.div_div_div_0_ul_li_2b"><%- t('quiz_invitation.div_div_div_0_ul_li_2b') %></li>
+        <li class="bold" data-i18n="quiz_invitation.div_div_div_0_ul_li_3b"><%- t('quiz_invitation.div_div_div_0_ul_li_3b') %></li>
       </ul>
     </div>
     
     <div class="right">
-      <p class="bold reward">As a reward, each time you complete a set of questions you will be entered in a raffle to win a <strong>$20 Amazon Gift Certificate</strong>.</p>
-      <p class="call">Would you like to participate?</p>
+      <p class="bold reward" data-i18n="quiz_invitation.div_div_div_1_p_0c"><%- t('quiz_invitation.div_div_div_1_p_0b') %><strong>$20 Amazon Gift Certificate</strong><%- t('quiz_invitation.div_div_div_1_p_0c') %></p>
+      <p class="call" data-i18n="quiz_invitation.div_div_div_1_p_1b"><%- t('quiz_invitation.div_div_div_1_p_1b') %></p>
       <div class="buttons">
         <button data-dialog="true" data-value="yes">Yes!</button>
         <button data-dialog="true" data-value="no">No, thanks</button>

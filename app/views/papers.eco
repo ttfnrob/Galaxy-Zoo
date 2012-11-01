@@ -2,135 +2,42 @@
   <div class="content">
     <div class="content-block">
       <div class="full">
-        <h1 class="heading">Published Papers</h1>
-        <p>The efforts of the Galaxy Zoo community has resulted in fantastically rich dataset with which to do science. Below is a list of just some of the publications that have come about because of the classifications collected on Galaxy Zoo.</p>
+        <h1 class="heading" data-i18n="papers.div_div_div_h1b"><%- t('papers.div_div_div_h1b') %></h1>
+        <p data-i18n="papers.div_div_div_pb"><%- t('papers.div_div_div_pb') %></p>
         <ul class="papers">
         
-        <li>
-        Skibba et al. 2012. Galaxy Zoo: the environmental dependence of bars and bulges in disc galaxies. MNRAS 423, 1485.
-        (available here <a href="http://arxiv.org/abs/1111.0969">astro-ph</a>)
-        </li>
+        <li data-i18n="papers.div_div_div_ul_li_0c"><%- t('papers.div_div_div_ul_li_0b') %><a href="http://arxiv.org/abs/1111.0969" data-i18n="papers.div_div_div_ul_li_0_ab"><%- t('papers.div_div_div_ul_li_0_ab') %></a><%- t('papers.div_div_div_ul_li_0c') %></li>
         
-        <li>
-        Kaviraj S., et al, 2011, "Galaxy Zoo: Dust and molecular gas in early-type galaxies with prominent dust lanes", MNRAS 423, 49.
-        (available here <a href="http://arxiv.org/abs/1107.5306">astro-ph</a>) 
-        </li>  
+        <li data-i18n="papers.div_div_div_ul_li_1c"><%- t('papers.div_div_div_ul_li_1b') %><a href="http://arxiv.org/abs/1107.5306" data-i18n="papers.div_div_div_ul_li_1_ab"><%- t('papers.div_div_div_ul_li_1_ab') %></a><%- t('papers.div_div_div_ul_li_1c') %></li>  
 
-        <li>
-        Shabala S., et al, 2011, "Galaxy Zoo: Dust lane early-type galaxies are tracers of recent, gas-rich minor mergers", MNRAS 423, 49.
-        (available here <a href="http://arxiv.org/abs/1107.5310">astro-ph</a>) 
-        </li>
+        <li data-i18n="papers.div_div_div_ul_li_2c"><%- t('papers.div_div_div_ul_li_2b') %><a href="http://arxiv.org/abs/1107.5310" data-i18n="papers.div_div_div_ul_li_2_ab"><%- t('papers.div_div_div_ul_li_2_ab') %></a><%- t('papers.div_div_div_ul_li_2c') %></li>
 
-        <li>
-        Hoyle et al., 2011, "Galaxy Zoo : Bar Lengths in Nearby Disk Galaxies", MNRAS 415, 3627.
-        (available here <ahref="http://arxiv.org/abs/1104.5394">astro-ph</a>)
-        </li>
+        <li data-i18n="papers.div_div_div_ul_li_3c"><%- t('papers.div_div_div_ul_li_3b') %><%- t('papers.div_div_div_ul_li_3c') %></li>
         
-        <li>
-        Smith A. M, et al., 2011, "Galaxy Zoo Supernovae", MNRAS, 412, 1309.
-        (available here: <a href="http://arxiv.org/abs/1011.2199">astro-ph</a>)
-        </li>
+        <li data-i18n="papers.div_div_div_ul_li_4c"><%- t('papers.div_div_div_ul_li_4b') %><a href="http://arxiv.org/abs/1011.2199" data-i18n="papers.div_div_div_ul_li_4_ab"><%- t('papers.div_div_div_ul_li_4_ab') %></a><%- t('papers.div_div_div_ul_li_4c') %></li>
 
-        <li>
-        Darg D. W., et al., 2010, "Galaxy Zoo: Multi-Mergers and the Millennium Simulation", MNRAS 416 1745.
-        (available here: <a href="http://arxiv.org/abs/1012.4214">astro-ph</a>)
-        </li>
+        <li data-i18n="papers.div_div_div_ul_li_5c"><%- t('papers.div_div_div_ul_li_5b') %><a href="http://arxiv.org/abs/1012.4214" data-i18n="papers.div_div_div_ul_li_5_ab"><%- t('papers.div_div_div_ul_li_5_ab') %></a><%- t('papers.div_div_div_ul_li_5c') %></li>
 
-        <li>
-        Schawinski K., et al., 2010, "The Sudden Death of the Nearest Quasar", ApJ 724, 30 (available here: <a href="http://arxiv.org/pdf/1011.0427v1">astro-ph</a>)
-        </li>
+        <li data-i18n="papers.div_div_div_ul_li_6c"><%- t('papers.div_div_div_ul_li_6b') %><a href="http://arxiv.org/pdf/1011.0427v1" data-i18n="papers.div_div_div_ul_li_6_ab"><%- t('papers.div_div_div_ul_li_6_ab') %></a><%- t('papers.div_div_div_ul_li_6c') %></li>
 
-        <li>
-        Masters K., et al., 2011, "Galaxy Zoo: bars in disk galaxies", accepted by MNRAS, 411, 2026. (available here: <a href="http://arxiv.org/abs/1003.0449">astro-ph</a>/<a href="http://ukads.nottingham.ac.uk/abs/2010arXiv1003.0449M">UKADS</a>)
-        </li>
-        <li>
-        Lintott C., et al., 2011, "Galaxy Zoo 1 : Data Release of
-        Morphological Classifications for nearly 900,000 galaxies", MNRAS, 410 166. 
-        (available here: <a href="http://arxiv.org/abs/1007.3265">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2010arXiv1007.3265L">ADS</a>)
-        </li>
-        <li>
-        Masters K., et al., 2010, "Galaxy Zoo: passive red spirals", MNRAS,
-        405, 783. 
-        (available here: <a href="http://arxiv.org/abs/0910.4113">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2010MNRAS.tmp..487M">ADS</a>)
-        </li>
-        <li>
-        Masters K., et al., 2010, "Galaxy Zoo: dust in spiral galaxies",
-        MNRAS, 404, 792. 
-        (available here: <a href="http://arxiv.org/abs/1001.1744">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2010MNRAS.tmp..459M">ADS</a>)
-        </li>
-        <li>
-        Schawinski K., et al., 2010, "Galaxy Zoo: The Fundamentally Different Co-Evolution of Supermassive Black Holes and Their Early- and Late-Type Host Galaxies", ApJ, 711, 284. 
-        (available here: <a href="http://arxiv.org/abs/1001.3141">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2010ApJ...711..284S">ADS</a>)
-        </li>	
-        <li>
-        Jimenez R., et al., 2010, "Galaxy Zoo: a correlation between the
-        coherence of galaxy spin chirality and star formation efficiency",
-        MNRAS, 404, 975. 
-        (available here: <a href="http://arxiv.org/abs/0906.0994">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2010MNRAS.tmp..262J">ADS</a>)
-        </li>
-        <li>
-        Banerji M., et al., 2010 "Galaxy Zoo: Reproducing galaxy morphologies
-        via machine learning", MNRAS, 406, 342.
-        (available here: <a href="http://arxiv.org/abs/0908.2033">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2009arXiv0908.2033B">ADS</a>)
-        </li>
-        <li>
-        Raddick J.M., et al., 2010, "Galaxy Zoo: Exploring the Motivations of
-        Citizen Science Volunteers", Astronomy Education Review, 9 (1), 010103.
-        (available
-        here: <a href="http://dx.doi.org/10.3847/AER2009036">AER</a>/<a href="http://arxiv.org/abs/0909.2925">arXiv</a>)
-        </li>
-        <li>
-        Darg D., et al., 2009, "Galaxy Zoo: The properties of merging galaxies
-        in the nearby Universe - local environments, colours, masses,
-        star-formation rates and AGN activity", MNRAS, 401, 1552. 
-        (available here: <a href="http://arxiv.org/abs/0903.5057">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2010MNRAS.401.1552D">ADS</a>)
-        </li>	
-        <li>
-        Darg D., et al., 2009, "Galaxy Zoo: the fraction of merging galaxies
-        in the SDSS and their morphologies", MNRAS, 401, 1043.
-        (available here: <a href="http://arxiv.org/abs/0903.4937">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2010MNRAS.401.1043D">ADS</a>)
-        </li>
-        <li>
-        Cardamone C., et al., 2009, "Galaxy Zoo Green Peas: Discovery of A Class of Compact Extremely Star-Forming Galaxies", MNRAS, 399, 1191.
-        (available here: <a href="http://arxiv.org/abs/0907.4155">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2009MNRAS.399.1191C">ADS</a>)
-        </li>	
-        <li>
-        Lintott C.J., et al., 2009, "Galaxy Zoo: 'Hanny's Voorwerp', a quasar light echo?", MNRAS, 399, 129.
-        (available here: <a href="http://arxiv.org/abs/0906.5304">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2009MNRAS.399..129L">ADS</a>)
-        </li>	
-        <li>
-        Skibba R.A., et al., 2009, "Galaxy Zoo: disentangling the environmental dependence of morphology and colour", MNRAS, 399, 966.
-        (available here: <a href="http://arxiv.org/abs/0811.3970">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2009MNRAS.399..966S">ADS</a>)
-        </li>	
-        <li>
-        Schawinski K., et al., 2009, "Galaxy Zoo : A sample of blue early-type galaxies at low redshift", MNRAS, 396, 818.
-        (available here: <a href="http://arxiv.org/abs/0903.3415">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2009MNRAS.396..818S">ADS</a>)
-        </li>	
-        <li>
-        Slosar A., et al., 2008,
-        "Galaxy Zoo: Chiral correlation function of galaxy spins",
-        MNRAS, 392, 1225.
-        (available here: <a href="http://uk.arxiv.org/abs/0809.0717">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2009MNRAS.392.1225S">ADS</a>)
-        </li>
-        <li>
-        Bamford S.P., et al., 2009,
-        "Galaxy Zoo: the dependence of morphology and colour on environment", MNRAS, 393, 1324.
-        (available here: <a href="http://uk.arxiv.org/abs/0805.2612">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2009MNRAS.393.1324B">ADS</a>)
-        </li>
-        <li>
-        Lintott C.J., et al., 2008,
-        "Galaxy Zoo: Morphologies derived from visual inspection of galaxies
-        from the Sloan Digital Sky Survey",
-        MNRAS, 389, 1179.
-        (available here: <a href="http://uk.arxiv.org/abs/0804.4483">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2008MNRAS.389.1179L">ADS</a>)
-        </li>
-        <li>
-        Land K., et al., 2008,
-        "Galaxy Zoo: The large-scale spin statistics of spiral galaxies in the
-        Sloan Digital Sky Survey",
-        MNRAS, 388, 1686.
-        (available here: <a href="http://uk.arxiv.org/abs/0803.3247">astro-ph</a>/<a href="http://adsabs.harvard.edu/abs/2008MNRAS.388.1686L">ADS</a>)
-        </li>
+        <li data-i18n="papers.div_div_div_ul_li_7d"><%- t('papers.div_div_div_ul_li_7b') %><a href="http://arxiv.org/abs/1003.0449" data-i18n="papers.div_div_div_ul_li_7_a_0b"><%- t('papers.div_div_div_ul_li_7_a_0b') %></a><%- t('papers.div_div_div_ul_li_7c') %><a href="http://ukads.nottingham.ac.uk/abs/2010arXiv1003.0449M" data-i18n="papers.div_div_div_ul_li_7_a_1b"><%- t('papers.div_div_div_ul_li_7_a_1b') %></a><%- t('papers.div_div_div_ul_li_7d') %></li>
+        <li data-i18n="papers.div_div_div_ul_li_8d"><%- t('papers.div_div_div_ul_li_8b') %><a href="http://arxiv.org/abs/1007.3265" data-i18n="papers.div_div_div_ul_li_8_a_0b"><%- t('papers.div_div_div_ul_li_8_a_0b') %></a><%- t('papers.div_div_div_ul_li_8c') %><a href="http://adsabs.harvard.edu/abs/2010arXiv1007.3265L" data-i18n="papers.div_div_div_ul_li_8_a_1b"><%- t('papers.div_div_div_ul_li_8_a_1b') %></a><%- t('papers.div_div_div_ul_li_8d') %></li>
+        <li data-i18n="papers.div_div_div_ul_li_9d"><%- t('papers.div_div_div_ul_li_9b') %><a href="http://arxiv.org/abs/0910.4113" data-i18n="papers.div_div_div_ul_li_9_a_0b"><%- t('papers.div_div_div_ul_li_9_a_0b') %></a><%- t('papers.div_div_div_ul_li_9c') %><a href="http://adsabs.harvard.edu/abs/2010MNRAS.tmp..487M" data-i18n="papers.div_div_div_ul_li_9_a_1b"><%- t('papers.div_div_div_ul_li_9_a_1b') %></a><%- t('papers.div_div_div_ul_li_9d') %></li>
+        <li data-i18n="papers.div_div_div_ul_li_10d"><%- t('papers.div_div_div_ul_li_10b') %><a href="http://arxiv.org/abs/1001.1744" data-i18n="papers.div_div_div_ul_li_10_a_0b"><%- t('papers.div_div_div_ul_li_10_a_0b') %></a><%- t('papers.div_div_div_ul_li_10c') %><a href="http://adsabs.harvard.edu/abs/2010MNRAS.tmp..459M" data-i18n="papers.div_div_div_ul_li_10_a_1b"><%- t('papers.div_div_div_ul_li_10_a_1b') %></a><%- t('papers.div_div_div_ul_li_10d') %></li>
+        <li data-i18n="papers.div_div_div_ul_li_11d"><%- t('papers.div_div_div_ul_li_11b') %><a href="http://arxiv.org/abs/1001.3141" data-i18n="papers.div_div_div_ul_li_11_a_0b"><%- t('papers.div_div_div_ul_li_11_a_0b') %></a><%- t('papers.div_div_div_ul_li_11c') %><a href="http://adsabs.harvard.edu/abs/2010ApJ...711..284S" data-i18n="papers.div_div_div_ul_li_11_a_1b"><%- t('papers.div_div_div_ul_li_11_a_1b') %></a><%- t('papers.div_div_div_ul_li_11d') %></li>	
+        <li data-i18n="papers.div_div_div_ul_li_12d"><%- t('papers.div_div_div_ul_li_12b') %><a href="http://arxiv.org/abs/0906.0994" data-i18n="papers.div_div_div_ul_li_12_a_0b"><%- t('papers.div_div_div_ul_li_12_a_0b') %></a><%- t('papers.div_div_div_ul_li_12c') %><a href="http://adsabs.harvard.edu/abs/2010MNRAS.tmp..262J" data-i18n="papers.div_div_div_ul_li_12_a_1b"><%- t('papers.div_div_div_ul_li_12_a_1b') %></a><%- t('papers.div_div_div_ul_li_12d') %></li>
+        <li data-i18n="papers.div_div_div_ul_li_13d"><%- t('papers.div_div_div_ul_li_13b') %><a href="http://arxiv.org/abs/0908.2033" data-i18n="papers.div_div_div_ul_li_13_a_0b"><%- t('papers.div_div_div_ul_li_13_a_0b') %></a><%- t('papers.div_div_div_ul_li_13c') %><a href="http://adsabs.harvard.edu/abs/2009arXiv0908.2033B" data-i18n="papers.div_div_div_ul_li_13_a_1b"><%- t('papers.div_div_div_ul_li_13_a_1b') %></a><%- t('papers.div_div_div_ul_li_13d') %></li>
+        <li data-i18n="papers.div_div_div_ul_li_14d"><%- t('papers.div_div_div_ul_li_14b') %><a href="http://dx.doi.org/10.3847/AER2009036" data-i18n="papers.div_div_div_ul_li_14_a_0b"><%- t('papers.div_div_div_ul_li_14_a_0b') %></a><%- t('papers.div_div_div_ul_li_14c') %><a href="http://arxiv.org/abs/0909.2925" data-i18n="papers.div_div_div_ul_li_14_a_1b"><%- t('papers.div_div_div_ul_li_14_a_1b') %></a><%- t('papers.div_div_div_ul_li_14d') %></li>
+        <li data-i18n="papers.div_div_div_ul_li_15d"><%- t('papers.div_div_div_ul_li_15b') %><a href="http://arxiv.org/abs/0903.5057" data-i18n="papers.div_div_div_ul_li_15_a_0b"><%- t('papers.div_div_div_ul_li_15_a_0b') %></a><%- t('papers.div_div_div_ul_li_15c') %><a href="http://adsabs.harvard.edu/abs/2010MNRAS.401.1552D" data-i18n="papers.div_div_div_ul_li_15_a_1b"><%- t('papers.div_div_div_ul_li_15_a_1b') %></a><%- t('papers.div_div_div_ul_li_15d') %></li>	
+        <li data-i18n="papers.div_div_div_ul_li_16d"><%- t('papers.div_div_div_ul_li_16b') %><a href="http://arxiv.org/abs/0903.4937" data-i18n="papers.div_div_div_ul_li_16_a_0b"><%- t('papers.div_div_div_ul_li_16_a_0b') %></a><%- t('papers.div_div_div_ul_li_16c') %><a href="http://adsabs.harvard.edu/abs/2010MNRAS.401.1043D" data-i18n="papers.div_div_div_ul_li_16_a_1b"><%- t('papers.div_div_div_ul_li_16_a_1b') %></a><%- t('papers.div_div_div_ul_li_16d') %></li>
+        <li data-i18n="papers.div_div_div_ul_li_17d"><%- t('papers.div_div_div_ul_li_17b') %><a href="http://arxiv.org/abs/0907.4155" data-i18n="papers.div_div_div_ul_li_17_a_0b"><%- t('papers.div_div_div_ul_li_17_a_0b') %></a><%- t('papers.div_div_div_ul_li_17c') %><a href="http://adsabs.harvard.edu/abs/2009MNRAS.399.1191C" data-i18n="papers.div_div_div_ul_li_17_a_1b"><%- t('papers.div_div_div_ul_li_17_a_1b') %></a><%- t('papers.div_div_div_ul_li_17d') %></li>	
+        <li data-i18n="papers.div_div_div_ul_li_18d"><%- t('papers.div_div_div_ul_li_18b') %><a href="http://arxiv.org/abs/0906.5304" data-i18n="papers.div_div_div_ul_li_18_a_0b"><%- t('papers.div_div_div_ul_li_18_a_0b') %></a><%- t('papers.div_div_div_ul_li_18c') %><a href="http://adsabs.harvard.edu/abs/2009MNRAS.399..129L" data-i18n="papers.div_div_div_ul_li_18_a_1b"><%- t('papers.div_div_div_ul_li_18_a_1b') %></a><%- t('papers.div_div_div_ul_li_18d') %></li>	
+        <li data-i18n="papers.div_div_div_ul_li_19d"><%- t('papers.div_div_div_ul_li_19b') %><a href="http://arxiv.org/abs/0811.3970" data-i18n="papers.div_div_div_ul_li_19_a_0b"><%- t('papers.div_div_div_ul_li_19_a_0b') %></a><%- t('papers.div_div_div_ul_li_19c') %><a href="http://adsabs.harvard.edu/abs/2009MNRAS.399..966S" data-i18n="papers.div_div_div_ul_li_19_a_1b"><%- t('papers.div_div_div_ul_li_19_a_1b') %></a><%- t('papers.div_div_div_ul_li_19d') %></li>	
+        <li data-i18n="papers.div_div_div_ul_li_20d"><%- t('papers.div_div_div_ul_li_20b') %><a href="http://arxiv.org/abs/0903.3415" data-i18n="papers.div_div_div_ul_li_20_a_0b"><%- t('papers.div_div_div_ul_li_20_a_0b') %></a><%- t('papers.div_div_div_ul_li_20c') %><a href="http://adsabs.harvard.edu/abs/2009MNRAS.396..818S" data-i18n="papers.div_div_div_ul_li_20_a_1b"><%- t('papers.div_div_div_ul_li_20_a_1b') %></a><%- t('papers.div_div_div_ul_li_20d') %></li>	
+        <li data-i18n="papers.div_div_div_ul_li_21d"><%- t('papers.div_div_div_ul_li_21b') %><a href="http://uk.arxiv.org/abs/0809.0717" data-i18n="papers.div_div_div_ul_li_21_a_0b"><%- t('papers.div_div_div_ul_li_21_a_0b') %></a><%- t('papers.div_div_div_ul_li_21c') %><a href="http://adsabs.harvard.edu/abs/2009MNRAS.392.1225S" data-i18n="papers.div_div_div_ul_li_21_a_1b"><%- t('papers.div_div_div_ul_li_21_a_1b') %></a><%- t('papers.div_div_div_ul_li_21d') %></li>
+        <li data-i18n="papers.div_div_div_ul_li_22d"><%- t('papers.div_div_div_ul_li_22b') %><a href="http://uk.arxiv.org/abs/0805.2612" data-i18n="papers.div_div_div_ul_li_22_a_0b"><%- t('papers.div_div_div_ul_li_22_a_0b') %></a><%- t('papers.div_div_div_ul_li_22c') %><a href="http://adsabs.harvard.edu/abs/2009MNRAS.393.1324B" data-i18n="papers.div_div_div_ul_li_22_a_1b"><%- t('papers.div_div_div_ul_li_22_a_1b') %></a><%- t('papers.div_div_div_ul_li_22d') %></li>
+        <li data-i18n="papers.div_div_div_ul_li_23d"><%- t('papers.div_div_div_ul_li_23b') %><a href="http://uk.arxiv.org/abs/0804.4483" data-i18n="papers.div_div_div_ul_li_23_a_0b"><%- t('papers.div_div_div_ul_li_23_a_0b') %></a><%- t('papers.div_div_div_ul_li_23c') %><a href="http://adsabs.harvard.edu/abs/2008MNRAS.389.1179L" data-i18n="papers.div_div_div_ul_li_23_a_1b"><%- t('papers.div_div_div_ul_li_23_a_1b') %></a><%- t('papers.div_div_div_ul_li_23d') %></li>
+        <li data-i18n="papers.div_div_div_ul_li_24d"><%- t('papers.div_div_div_ul_li_24b') %><a href="http://uk.arxiv.org/abs/0803.3247" data-i18n="papers.div_div_div_ul_li_24_a_0b"><%- t('papers.div_div_div_ul_li_24_a_0b') %></a><%- t('papers.div_div_div_ul_li_24c') %><a href="http://adsabs.harvard.edu/abs/2008MNRAS.388.1686L" data-i18n="papers.div_div_div_ul_li_24_a_1b"><%- t('papers.div_div_div_ul_li_24_a_1b') %></a><%- t('papers.div_div_div_ul_li_24d') %></li>
         </ul>
         
       </div>

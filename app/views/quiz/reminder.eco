@@ -1,15 +1,15 @@
 <div class="quiz-invitation reminder">
-  <h1>Galaxy Zoo needs your help!</h1>
-  <p class="sub-title">We are doing research to better understand what Galaxy Zoo volunteers think about the universe.</p>
+  <h1 data-i18n="quiz_reminder.div_h1b"><%- t('quiz_reminder.div_h1b') %></h1>
+  <p class="sub-title" data-i18n="quiz_reminder.div_pb"><%- t('quiz_reminder.div_pb') %></p>
   
   <div class="content-block">
     <div class="left">
-      <p class="bold">You have previously agreed to be asked a set of 5&ndash;6 short questions once every week.</p>
-      <p class="bold reward">Each time you complete a set of questions you will be entered in a raffle to win a <strong>$20 Amazon Gift Certificate</strong>.</p>
+      <p class="bold" data-i18n="quiz_reminder.div_div_div_0_p_0b"><%- t('quiz_reminder.div_div_div_0_p_0b') %></p>
+      <p class="bold reward" data-i18n="quiz_reminder.div_div_div_0_p_1c"><%- t('quiz_reminder.div_div_div_0_p_1b') %><strong>$20 Amazon Gift Certificate</strong><%- t('quiz_reminder.div_div_div_0_p_1c') %></p>
     </div>
     
     <div class="right">
-      <p class="call">Are you ready?</p>
+      <p class="call" data-i18n="quiz_reminder.div_div_div_1_pb"><%- t('quiz_reminder.div_div_div_1_pb') %></p>
       <div class="buttons">
         <button data-dialog="true" data-value="yes">Yes!</button>
         <button data-dialog="true" data-value="later">Later</button>

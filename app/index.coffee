@@ -10,6 +10,8 @@ TopBar = require 'zooniverse/lib/controllers/top_bar'
 googleAnalytics = require 'zooniverse/lib/google_analytics'
 BrowserCheck = require 'zooniverse/lib/controllers/browser_check'
 
+window.t = require('lib/i18n').t
+
 class App extends Spine.Controller
   constructor: ->
     super

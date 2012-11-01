@@ -1,37 +1,19 @@
 <nav>
   <ul>
-    <li>
-      <a href="#/classify" data-nav="/classify">Classify</a>
-    </li>
-    <li>
-      <a href="#/science" data-nav="/science">Science</a>
-      <ul class="menu">
-        <li><a href="http://blog.galaxyzoo.org" target="_blank">Blog</a></li>
-        <li><a href="#/team" target="_blank">Team</a></li>
-        <li><a href="#/papers">Papers</a></li>
-        <li><a href="http://data.galaxyzoo.org" target="_blank">Data</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#/story" data-nav="/story">Story</a>
-    </li>
-    <li class="logo">
-      <a href="#/" data-nav="/">
-        <img src="images/gz_logo.png" alt="Galaxy Zoo" />
-      </a>
-    </li>
-    <li>
-      <a href="#/astronomers" data-nav="/astronomers">Astronomers</a>
-    </li>    
-    <li>
-      <a href="http://talk.galaxyzoo.org" target="_blank">Discuss</a>
-      <ul class="menu">
-        <li><a href="http://talk.galaxyzoo.org" target="_blank">Talk</a></li>
-        <li><a href="http://www.galaxyzooforum.org" target="_blank">Forum</a></li>
-      </ul>
-    </li>
-    <li class="last">
-      <a href="#/profile" data-nav="/profile">Profile</a>
-    </li>
+    <li data-i18n="navigation.nav_ul_li_0c"><%- t('navigation.nav_ul_li_0b') %><a href="#/classify" data-nav="/classify" data-i18n="navigation.nav_ul_li_0_ab"><%- t('navigation.nav_ul_li_0_ab') %></a><%- t('navigation.nav_ul_li_0c') %></li>
+    <li data-i18n="navigation.nav_ul_li_1d"><%- t('navigation.nav_ul_li_1b') %><a href="#/science" data-nav="/science" data-i18n="navigation.nav_ul_li_1_ab"><%- t('navigation.nav_ul_li_1_ab') %></a><%- t('navigation.nav_ul_li_1c') %><ul class="menu">
+        <li><a href="http://blog.galaxyzoo.org" target="_blank" data-i18n="navigation.nav_ul_li_1_ul_li_0_ab"><%- t('navigation.nav_ul_li_1_ul_li_0_ab') %></a></li>
+        <li><a href="#/team" target="_blank" data-i18n="navigation.nav_ul_li_1_ul_li_1_ab"><%- t('navigation.nav_ul_li_1_ul_li_1_ab') %></a></li>
+        <li><a href="#/papers" data-i18n="navigation.nav_ul_li_1_ul_li_2_ab"><%- t('navigation.nav_ul_li_1_ul_li_2_ab') %></a></li>
+        <li><a href="http://data.galaxyzoo.org" target="_blank" data-i18n="navigation.nav_ul_li_1_ul_li_3_ab"><%- t('navigation.nav_ul_li_1_ul_li_3_ab') %></a></li>
+      </ul><%- t('navigation.nav_ul_li_1d') %></li>
+    <li data-i18n="navigation.nav_ul_li_2c"><%- t('navigation.nav_ul_li_2b') %><a href="#/story" data-nav="/story" data-i18n="navigation.nav_ul_li_2_ab"><%- t('navigation.nav_ul_li_2_ab') %></a><%- t('navigation.nav_ul_li_2c') %></li>
+    <li class="logo" data-i18n="navigation.nav_ul_li_3c"><%- t('navigation.nav_ul_li_3b') %><a href="#/" data-nav="/" data-i18n="navigation.nav_ul_li_3_ac"><%- t('navigation.nav_ul_li_3_ab') %><img src="images/gz_logo.png" alt="Galaxy Zoo" /><%- t('navigation.nav_ul_li_3_ac') %></a><%- t('navigation.nav_ul_li_3c') %></li>
+    <li data-i18n="navigation.nav_ul_li_4c"><%- t('navigation.nav_ul_li_4b') %><a href="#/astronomers" data-nav="/astronomers" data-i18n="navigation.nav_ul_li_4_ab"><%- t('navigation.nav_ul_li_4_ab') %></a><%- t('navigation.nav_ul_li_4c') %></li>    
+    <li data-i18n="navigation.nav_ul_li_5d"><%- t('navigation.nav_ul_li_5b') %><a href="http://talk.galaxyzoo.org" target="_blank" data-i18n="navigation.nav_ul_li_5_ab"><%- t('navigation.nav_ul_li_5_ab') %></a><%- t('navigation.nav_ul_li_5c') %><ul class="menu">
+        <li><a href="http://talk.galaxyzoo.org" target="_blank" data-i18n="navigation.nav_ul_li_5_ul_li_0_ab"><%- t('navigation.nav_ul_li_5_ul_li_0_ab') %></a></li>
+        <li><a href="http://www.galaxyzooforum.org" target="_blank" data-i18n="navigation.nav_ul_li_5_ul_li_1_ab"><%- t('navigation.nav_ul_li_5_ul_li_1_ab') %></a></li>
+      </ul><%- t('navigation.nav_ul_li_5d') %></li>
+    <li class="last" data-i18n="navigation.nav_ul_li_6c"><%- t('navigation.nav_ul_li_6b') %><a href="#/profile" data-nav="/profile" data-i18n="navigation.nav_ul_li_6_ab"><%- t('navigation.nav_ul_li_6_ab') %></a><%- t('navigation.nav_ul_li_6c') %></li>
   </ul>
 </nav>

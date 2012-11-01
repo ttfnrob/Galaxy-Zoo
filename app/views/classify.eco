@@ -5,30 +5,18 @@
   </div>
   <div class="tree">
     <div class="top">
-      <h1 class="heading">Classify</h1>
+      <h1 class="heading" data-i18n="classify.div_1_div_h1b"><%- t('classify.div_1_div_h1b') %></h1>
       <ul class="buttons">
-        <li class="right"><a class="restart">Restart</a></li>
-        <li class="right"><a class="help">Help</a></li>
-        <li class="left">
-          <a title="<%= @subject.surveyTitle() %>" class="icon <%= @subject.metadata.survey %>">&nbsp;</a>
-          <span class="label"><%= @subject.surveyTitle() %></span>
-        </li>
+        <li class="right"><a class="restart" data-i18n="classify.div_1_div_ul_li_0_ab"><%- t('classify.div_1_div_ul_li_0_ab') %></a></li>
+        <li class="right"><a class="help" data-i18n="classify.div_1_div_ul_li_1_ab"><%- t('classify.div_1_div_ul_li_1_ab') %></a></li>
+        <li class="left" data-i18n="classify.div_1_div_ul_li_2d"><%- t('classify.div_1_div_ul_li_2b') %><a title="<%= @subject.surveyTitle() %>" class="icon <%= @subject.metadata.survey %>" data-i18n="classify.div_1_div_ul_li_2_ab"><%- t('classify.div_1_div_ul_li_2_ab') %></a><%- t('classify.div_1_div_ul_li_2c') %><span class="label"><%= @subject.surveyTitle() %></span><%- t('classify.div_1_div_ul_li_2d') %></li>
         <% if UserGroup.current : %>
-          <li class="left">
-            <a href="/#/navigator/group/<%= UserGroup.current.id %>" title="Group" class="icon group" src="">&nbsp;</a>
-            <span class="label group">Group</span>
-          </li>
+          <li class="left" data-i18n="classify.div_1_div_ul_li_3d"><%- t('classify.div_1_div_ul_li_3b') %><a href="/#/navigator/group/<%= UserGroup.current.id %>" title="Group" class="icon group" src="" data-i18n="classify.div_1_div_ul_li_3_ab"><%- t('classify.div_1_div_ul_li_3_ab') %></a><%- t('classify.div_1_div_ul_li_3c') %><span class="label group" data-i18n="classify.div_1_div_ul_li_3_spanb"><%- t('classify.div_1_div_ul_li_3_spanb') %></span><%- t('classify.div_1_div_ul_li_3d') %></li>
         <% end %>
         <% if require('zooniverse/lib/models/user').current : %>
-          <li class="left">
-            <a title="Favorite" class="icon favorite" src="">&nbsp;</a>
-            <span class="label">Favourite</span>
-          </li>
+          <li class="left" data-i18n="classify.div_1_div_ul_li_4d"><%- t('classify.div_1_div_ul_li_4b') %><a title="Favorite" class="icon favorite" src="" data-i18n="classify.div_1_div_ul_li_4_ab"><%- t('classify.div_1_div_ul_li_4_ab') %></a><%- t('classify.div_1_div_ul_li_4c') %><span class="label" data-i18n="classify.div_1_div_ul_li_4_spanb"><%- t('classify.div_1_div_ul_li_4_spanb') %></span><%- t('classify.div_1_div_ul_li_4d') %></li>
         <% end %>
-        <li class="left">
-          <a title="Invert" class="icon invert" src="">&nbsp;</a>
-          <span class="label">Invert</span>
-        </li>
+        <li class="left" data-i18n="classify.div_1_div_ul_li_5d"><%- t('classify.div_1_div_ul_li_5b') %><a title="Invert" class="icon invert" src="" data-i18n="classify.div_1_div_ul_li_5_ab"><%- t('classify.div_1_div_ul_li_5_ab') %></a><%- t('classify.div_1_div_ul_li_5c') %><span class="label" data-i18n="classify.div_1_div_ul_li_5_spanb"><%- t('classify.div_1_div_ul_li_5_spanb') %></span><%- t('classify.div_1_div_ul_li_5d') %></li>
       </ul>
     </div>
     

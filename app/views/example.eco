@@ -1,5 +1,5 @@
 <div class="centering">
   <div class="centered">
-    <img src="images/examples/<%= @example %>.jpg">
+    <img src="images/examples/<%= @example %>.jpg" />
   </div>
 </div>

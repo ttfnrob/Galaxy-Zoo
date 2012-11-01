@@ -10,20 +10,14 @@
 
 <div class="row">
   <span class="key"></span>
-  <span class="value">
-    <a target="_blank" href="http://skyserver.sdss3.org/dr8/en/tools/explore/obj.asp?id=<%= @subject.metadata.sdss_id %>">View on SkyServer</a>
-  </span>
+  <span class="value" data-i18n="examine_sloan.div_1_span_1c"><%- t('examine_sloan.div_1_span_1b') %><a target="_blank" href="http://skyserver.sdss3.org/dr8/en/tools/explore/obj.asp?id=<%= @subject.metadata.sdss_id %>" data-i18n="examine_sloan.div_1_span_1_ab"><%- t('examine_sloan.div_1_span_1_ab') %></a><%- t('examine_sloan.div_1_span_1c') %></span>
 </div>
 <div class="row">
   <span class="key"></span>
-  <span class="value">
-    <a target="_blank" href="http://ned.ipac.caltech.edu/cgi-bin/nph-objsearch?search_type=Near+Position+Search&RA=<%= @subject.coords[0] %>&DEC=<%= @subject.coords[1]%>&SR=0.0166666667">Search NED</a>
-  </span>
+  <span class="value" data-i18n="examine_sloan.div_2_span_1c"><%- t('examine_sloan.div_2_span_1b') %><a target="_blank" href="http://ned.ipac.caltech.edu/cgi-bin/nph-objsearch?search_type=Near+Position+Search&RA=<%= @subject.coords[0] %>&DEC=<%= @subject.coords[1]%>&SR=0.0166666667" data-i18n="examine_sloan.div_2_span_1_ab"><%- t('examine_sloan.div_2_span_1_ab') %></a><%- t('examine_sloan.div_2_span_1c') %></span>
 </div>
 
 <div class="row">
   <span class="key"></span>
-  <span class="value">
-    <a target="_blank" href="http://talk.galaxyzoo.org/objects/<%= @subject.zooniverse_id %>">Discuss this</a>
-  </span>
+  <span class="value" data-i18n="examine_sloan.div_3_span_1c"><%- t('examine_sloan.div_3_span_1b') %><a target="_blank" href="http://talk.galaxyzoo.org/objects/<%= @subject.zooniverse_id %>" data-i18n="examine_sloan.div_3_span_1_ab"><%- t('examine_sloan.div_3_span_1_ab') %></a><%- t('examine_sloan.div_3_span_1c') %></span>
 </div>

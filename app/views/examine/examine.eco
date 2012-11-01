@@ -4,20 +4,19 @@
     <div class="content-block">
       
       <div class="left">
-        <h1 class="heading">Examine</h1>
+        <h1 class="heading" data-i18n="examine_examine.div_div_div_0_h1b"><%- t('examine_examine.div_div_div_0_h1b') %></h1>
         
         <div class="subject">
           <% if @subject : %>
-            <img src="<%= @subject.image() %>" class="name">
+            <img src="<%= @subject.image() %>" class="name" />
           <% end %>
         </div>
       </div>
       
       <div class="right">
-        <h1 class="heading">&nbsp;</h1>
+        <h1 class="heading" data-i18n="examine_examine.div_div_div_1_h1b"><%- t('examine_examine.div_div_div_1_h1b') %></h1>
         <% if @subject : %>
-          <h2><%= @subject.zooniverse_id.toUpperCase() %></h3>
-          <div class="subject-info">
+          <h2 data-i18n="examine_examine.div_div_div_1_h2b"><%= @subject.zooniverse_id.toUpperCase() %><%- t('examine_examine.div_div_div_1_h2b') %></h2><div class="subject-info">
             <%- require("views/examine/#{ @subject.metadata.survey }")(@) %>
           </div>
         <% end %>

@@ -13,8 +13,7 @@
     
     <ul class="answers">
       <% for letter, answer of question.answersWithLetters() : %>
-        <li class="answer">
-          <span data-dialog="true" data-value="<%= letter %>"><%- answer.text %></span>
+        <li class="answer" data-i18n="quiz_question.div_div_ul_lib"><%- t('quiz_question.div_div_ul_lib') %><span data-dialog="true" data-value="<%= letter %>"><%- answer.text %></span>
           <% if answer.image : %>
             <img data-dialog="true" data-value="<%= letter %>" src="<%= answer.image %>" />
           <% end %>
